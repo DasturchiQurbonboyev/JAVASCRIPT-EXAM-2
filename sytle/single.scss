@@ -22,6 +22,10 @@
 
         h1 {
             font-size: 45px;
+            width: 220px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
 
             @media (max-width:500px) {
                 font-size: 30px;
