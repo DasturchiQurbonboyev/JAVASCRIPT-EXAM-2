@@ -1,0 +1,44 @@
+.not-fount {
+    display: none;
+    font-family: 'Montserrat';
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(56, 56, 56);
+
+    img {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .wrapper {
+        margin-top: -350px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .message {
+            font-size: 1.5rem;
+            padding: 20px;
+            text-align: center;
+            width: 60%;
+        }
+
+        .btn {
+            background: rgb(88, 0, 202);
+            text-decoration: none;
+            font-size: 1.5rem;
+            padding: 12px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: rgb(132, 37, 255);
+        }
+    }
+}

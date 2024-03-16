@@ -1,0 +1,59 @@
+.single {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    padding-top: 200px !important;
+
+    @media (max-width:700px) {
+        display: block;
+    }
+
+    &__left {
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__reight {
+        padding-right: 20px;
+
+        h1 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        div {
+            .narxi {
+                margin-bottom: 5px;
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 35px;
+                font-weight: 800;
+            }
+
+            .narx-2 {
+                margin-left: 20px;
+                color: rgb(184, 180, 174);
+            }
+
+            button {
+                margin-top: 20px;
+                padding: 12px 60px;
+                border: none;
+                background: #4295E4;
+                border-radius: 8px;
+                color: #ffffff;
+            }
+        }
+
+
+    }
+
+}

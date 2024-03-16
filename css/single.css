@@ -1,0 +1,46 @@
+.single {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  padding-top: 200px !important;
+}
+@media (max-width: 700px) {
+  .single {
+    display: block;
+  }
+}
+.single__left img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.single__reight {
+  padding-right: 20px;
+}
+.single__reight h1 {
+  font-size: 45px;
+}
+.single__reight p {
+  font-size: 20px;
+}
+.single__reight div .narxi {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.single__reight div span {
+  font-size: 35px;
+  font-weight: 800;
+}
+.single__reight div .narx-2 {
+  margin-left: 20px;
+  color: rgb(184, 180, 174);
+}
+.single__reight div button {
+  margin-top: 20px;
+  padding: 12px 60px;
+  border: none;
+  background: #4295E4;
+  border-radius: 8px;
+  color: #ffffff;
+}/*# sourceMappingURL=single.css.map */

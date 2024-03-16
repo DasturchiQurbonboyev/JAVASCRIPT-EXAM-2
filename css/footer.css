@@ -1,0 +1,120 @@
+footer {
+  padding: 64px 0 25px;
+  background: #0D2436;
+}
+@media (max-width: 750px) {
+  footer {
+    padding: 25px 0;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 750px) {
+  .footer {
+    display: block;
+  }
+}
+@media (max-width: 750px) {
+  .footer__logo {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+.footer__logo__bottom {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer__links {
+  display: flex;
+  gap: 96px;
+}
+@media (max-width: 1010px) {
+  .footer__links {
+    gap: 25px;
+  }
+}
+@media (max-width: 800px) {
+  .footer__links {
+    gap: 15px;
+  }
+}
+@media (max-width: 670px) {
+  .footer__links {
+    flex-wrap: wrap;
+  }
+}
+.footer__links h3 {
+  font-family: SF Pro Text;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.footer__links a,
+.footer__links label,
+.footer__links p {
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.footer__links a {
+  text-decoration: none;
+}
+.footer__links__navigation {
+  max-width: 140px;
+  width: 100%;
+}
+.footer__links__navigation div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer__links__contacts {
+  max-width: 180px;
+  width: 100%;
+}
+.footer__links__contacts div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer__links__addres p {
+  max-width: 180px;
+  width: 100%;
+}
+.footer__links__about div {
+  max-width: 146px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+hr {
+  margin-top: 50px;
+}
+
+.golden-soft {
+  margin-top: 25px;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}/*# sourceMappingURL=footer.css.map */
